@@ -1,12 +1,11 @@
 import React from "react";
-
-import { Hyperlink } from "../../atoms/hyperlink";
+import Hyperlink from "../../atoms/hyperlink";
 
 import styles from "./error-container.module.scss";
 
 const ErrorContainer = () => (
-  <div className={styles.error_container}>
-    <h2 className={styles.error_container__title}>
+  <div className={styles.errorContainer}>
+    <h2 className={styles.errorContainer__title}>
       Rut roh....something went wrong.
     </h2>
     <p>
@@ -16,4 +15,4 @@ const ErrorContainer = () => (
   </div>
 );
 
-export { ErrorContainer };
+export default ErrorContainer;

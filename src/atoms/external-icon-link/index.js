@@ -1,1 +1,1 @@
-export { ExternalIconLink } from "./external-icon-link";
+export { default } from "./external-icon-link";

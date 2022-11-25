@@ -21,4 +21,4 @@ Hamburger.propTypes = {
   onClick: PropTypes.func.isRequired,
 };
 
-export { Hamburger };
+export default Hamburger;

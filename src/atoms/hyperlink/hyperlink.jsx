@@ -18,7 +18,7 @@ Hyperlink.propTypes = {
   className: PropTypes.string,
   href: PropTypes.string.isRequired,
   onClick: PropTypes.func,
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired
 };
 
-export { Hyperlink };
+export default Hyperlink;

@@ -1,1 +1,1 @@
-export { AccordionDesktop } from "./accordion-desktop";
+export { default } from "./accordion-desktop";
