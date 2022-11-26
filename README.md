@@ -6,8 +6,9 @@
 
 Do a global find on the repo for the following: `REPLACE_ME__`. This should speed up the below process.
 
-1. package.json - deploy:beta/prod scripts
 1. Update config.js with client information.
+1. package.json - deploy:beta/prod scripts
+1. Update GHA so that the deploy works
 
 ### Github updates
 
