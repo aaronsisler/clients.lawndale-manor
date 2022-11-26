@@ -1,1 +1,1 @@
-export { default } from "./application-download";
+export { ApplicationDownload } from "./application-download";

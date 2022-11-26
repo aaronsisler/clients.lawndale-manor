@@ -1,1 +1,1 @@
-export { default } from "./image-submission-form";
+export { ImageSubmissionForm } from "./image-submission-form";

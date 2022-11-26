@@ -16,4 +16,4 @@ const ApplicationDownload = () => (
   </div>
 );
 
-export default ApplicationDownload;
+export { ApplicationDownload };

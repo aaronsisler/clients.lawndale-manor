@@ -1,13 +1,15 @@
 @import "./variables.scss";
 
 @mixin font-type(
-  $fontFamily: $MAIN_FONT,
-  $fontSize: $MEDIUM,
-  $fontWeight: 400
+  $family: $MAIN_FONT,
+  $size: $MEDIUM,
+  $weight: 300,
+  $color: $FONT_GRAY
 ) {
-  font-weight: $fontWeight;
-  font-size: $fontSize;
-  font-family: $fontFamily;
+  color: $color;
+  font-weight: $weight;
+  font-size: $size;
+  font-family: $family;
 }
 
 @mixin button() {
@@ -49,4 +51,28 @@
   }
 
   max-height: $MAX_HEIGHT;
+}
+
+@mixin CTA-link {
+  position: relative;
+  z-index: 2;
+  align-self: center;
+  padding: $MEDIUM $MIDLARGE;
+  color: white;
+  font-size: $MEDIUM;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $MAIN_COLOR;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: $BORDER_RADIUS;
+  cursor: pointer;
+  &:hover {
+    background: $MAIN_COLOR_LIGHTEN;
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+  }
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
 }

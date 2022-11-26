@@ -20,4 +20,4 @@ TeamMember.propTypes = {
   title: PropTypes.string.isRequired,
 };
 
-export default TeamMember;
+export { TeamMember };

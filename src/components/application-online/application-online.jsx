@@ -1,6 +1,6 @@
 import React from "react";
 import { APPLICATION_ONLINE_URL } from "../../config";
-import ExternalLink from "../../atoms/external-link";
+import { ExternalLink } from "../../atoms/external-link";
 
 import styles from "./application-online.module.scss";
 
@@ -14,4 +14,4 @@ const ApplicationOnline = () => (
   </div>
 );
 
-export default ApplicationOnline;
+export { ApplicationOnline };

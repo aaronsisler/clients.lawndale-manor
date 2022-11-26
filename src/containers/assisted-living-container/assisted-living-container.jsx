@@ -83,4 +83,4 @@ const AssistedLivingContainer = () => (
   </div>
 );
 
-export default AssistedLivingContainer;
+export { AssistedLivingContainer;

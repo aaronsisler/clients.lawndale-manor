@@ -3,9 +3,9 @@ import { useForm } from "react-hook-form";
 import * as yup from "yup";
 
 import { CLIENT_NAME } from "../../config";
-import FileUpload from "../file-upload";
-import FormError from "../../atoms/form-error";
-import Input from "../../atoms/input";
+import { FileUpload } from "../file-upload";
+import { FormError } from "../../atoms/form-error";
+import { Input } from "../../atoms/input";
 import { encodeBase64, sendEmailWithAttachment } from "../../utils";
 
 import styles from "./application-submission-form.module.scss";
@@ -111,4 +111,4 @@ const ApplicationSubmissionForm = () => {
   );
 };
 
-export default ApplicationSubmissionForm;
+export { ApplicationSubmissionForm };

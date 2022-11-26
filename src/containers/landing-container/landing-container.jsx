@@ -1,6 +1,7 @@
 import React from "react";
+
+import { Hyperlink } from "../../atoms/hyperlink";
 import { Image } from "../../atoms/image";
-import Hyperlink from "../../atoms/hyperlink";
 import { getCdnUrl } from "../../utils";
 
 import styles from "./landing-container.module.scss";
@@ -54,4 +55,4 @@ const LandingContainer = () => (
   </div>
 );
 
-export default LandingContainer;
+export { LandingContainer };

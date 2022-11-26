@@ -1,5 +1,5 @@
 import React from "react";
-import Hyperlink from "../../atoms/hyperlink";
+import { Hyperlink } from "../../atoms/hyperlink";
 
 import styles from "./error-container.module.scss";
 
@@ -15,4 +15,4 @@ const ErrorContainer = () => (
   </div>
 );
 
-export default ErrorContainer;
+export { ErrorContainer;

@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "../../atoms/image";
-import Hyperlink from "../../atoms/hyperlink";
+import { Hyperlink } from "../../atoms/hyperlink";
 import { getCdnUrl } from "../../utils";
 
 import styles from "./daily-life-container.module.scss";
@@ -82,4 +82,4 @@ const DailyLifeContainer = () => (
   </div>
 );
 
-export default DailyLifeContainer;
+export { DailyLifeContainer;

@@ -1,1 +1,1 @@
-export { default } from "./footer-link-group";
+export { FooterLinkGroup } from "./footer-link-group";

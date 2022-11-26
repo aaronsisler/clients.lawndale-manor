@@ -7,4 +7,4 @@ const encodeBase64 = file =>
     reader.onerror = error => reject(error);
   });
 
-export default encodeBase64;
+export { encodeBase64;

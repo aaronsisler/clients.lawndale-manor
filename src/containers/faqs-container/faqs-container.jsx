@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "../../atoms/image";
-import faqs from "../../content/faqs";
+import { faqs } from "../../content/faqs";
 import { getCdnUrl } from "../../utils";
 
 import styles from "./faqs-container.module.scss";
@@ -14,7 +14,11 @@ const splashImage = {
 
 const FaqsContainer = () => (
   <div className={styles.faqsContainer}>
-    <Image className={styles.faqsContainer__splashImage} {...splashImage} />
+    <Image
+      className={styles.faqsContainer__splashImage}
+      alt={splashImage.alt}
+      src={splashImage.src}
+    />
     <div className={styles.faqsContainer__content}>
       <h1 className={styles.faqsContainer__title}>What should I know?</h1>
       <p>
@@ -35,4 +39,4 @@ const FaqsContainer = () => (
   </div>
 );
 
-export default FaqsContainer;
+export { FaqsContainer };

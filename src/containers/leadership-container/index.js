@@ -1,1 +1,1 @@
-export { default } from "./leadership-container";
+export { LeadershipContainer } from "./leadership-container";

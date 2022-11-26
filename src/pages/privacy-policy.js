@@ -7,4 +7,4 @@ const PrivacyPolicyPage = () => (
   </main>
 );
 
-export default PrivacyPolicyPage;
+export { PrivacyPolicyPage;

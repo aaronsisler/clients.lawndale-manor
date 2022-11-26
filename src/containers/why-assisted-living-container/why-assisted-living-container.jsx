@@ -1,6 +1,6 @@
 import React from "react";
+import { Hyperlink } from "../../atoms/hyperlink";
 import { Image } from "../../atoms/image";
-import Hyperlink from "../../atoms/hyperlink";
 import { getCdnUrl } from "../../utils";
 
 import styles from "./why-assisted-living-container.module.scss";
@@ -58,4 +58,4 @@ const WhyAssistedLivingContainer = () => (
   </div>
 );
 
-export default WhyAssistedLivingContainer;
+export { WhyAssistedLivingContainer };

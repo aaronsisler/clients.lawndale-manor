@@ -1,1 +1,1 @@
-export { default } from "./our-mission-container";
+export { OurMissionContainer } from "./our-mission-container";

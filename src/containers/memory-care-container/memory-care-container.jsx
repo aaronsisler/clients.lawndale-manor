@@ -16,7 +16,8 @@ const MemoryCareContainer = () => (
   <div className={styles.memoryCareContainer}>
     <Image
       className={styles.memoryCareContainer__splashImage}
-      {...splashImage}
+      alt={splashImage.alt}
+      src={splashImage.src}
     />
     <div className={styles.memoryCareContainer__content}>
       <h1 className={styles.memoryCareContainer__title}>
@@ -53,7 +54,8 @@ const MemoryCareContainer = () => (
           <Image
             key={index}
             className={styles.memoryCareContainer__modelImage}
-            {...image}
+            alt={image.alt}
+            src={image.src}
           />
         ))}
       </div>
@@ -61,4 +63,4 @@ const MemoryCareContainer = () => (
   </div>
 );
 
-export default MemoryCareContainer;
+export { MemoryCareContainer };

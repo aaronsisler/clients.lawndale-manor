@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Hyperlink from "../../atoms/hyperlink";
+import { Hyperlink } from "../../atoms/hyperlink";
 
 import styles from "./footer-link-group.module.scss";
 
@@ -20,4 +20,4 @@ FooterLinkGroup.propTypes = {
   title: PropTypes.string.isRequired,
 };
 
-export default FooterLinkGroup;
+export { FooterLinkGroup };

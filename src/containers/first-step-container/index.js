@@ -1,1 +1,1 @@
-export { default } from "./first-step-container";
+export { FirstStepContainer } from "./first-step-container";

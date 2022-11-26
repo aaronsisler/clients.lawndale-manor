@@ -1,7 +1,7 @@
 import React from "react";
-import FooterLinkGroup from "../../components/footer-link-group";
-import Hyperlink from "../../atoms/hyperlink";
-import navigationLinks from "../../content/navigation-links";
+import { FooterLinkGroup } from "../../components/footer-link-group";
+import { Hyperlink } from "../../atoms/hyperlink";
+import { navigationLinks } from "../../content/navigation-links";
 
 import styles from "./footer.module.scss";
 
@@ -24,4 +24,4 @@ const Footer = () => (
   </footer>
 );
 
-export default Footer;
+export { Footer };

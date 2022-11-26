@@ -1,7 +1,7 @@
 import React from "react";
 import { Image } from "../../atoms/image";
 import { getCdnUrl } from "../../utils";
-import Hyperlink from "../../atoms/hyperlink";
+import { Hyperlink } from "../../atoms/hyperlink";
 import ApplicationOnline from "../../components/application-online";
 
 import styles from "./careers-container.module.scss";
@@ -37,4 +37,4 @@ const CareersContainer = () => (
   </div>
 );
 
-export default CareersContainer;
+export { CareersContainer;

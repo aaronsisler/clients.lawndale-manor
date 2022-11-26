@@ -15,4 +15,4 @@ const ApplyContainer = () => (
   </div>
 );
 
-export default ApplyContainer;
+export { ApplyContainer;

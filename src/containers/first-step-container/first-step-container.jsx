@@ -1,6 +1,6 @@
 import React from "react";
+import { Hyperlink } from "../../atoms/hyperlink";
 import { Image } from "../../atoms/image";
-import Hyperlink from "../../atoms/hyperlink";
 import { getCdnUrl } from "../../utils";
 
 import styles from "./first-step-container.module.scss";
@@ -16,7 +16,8 @@ const FirstStepContainer = () => (
   <div className={styles.firstStepContainer}>
     <Image
       className={styles.firstStepContainer__splashImage}
-      {...splashImage}
+      alt={splashImage.alt}
+      src={splashImage.src}
     />
     <div className={styles.firstStepContainer__content}>
       <h1 className={styles.firstStepContainer__title}>Where do I start?</h1>
@@ -59,4 +60,4 @@ const FirstStepContainer = () => (
   </div>
 );
 
-export default FirstStepContainer;
+export { FirstStepContainer };

@@ -10,4 +10,4 @@ const ContactPhone = () => (
   </div>
 );
 
-export default ContactPhone;
+export { ContactPhone };

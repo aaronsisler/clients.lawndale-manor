@@ -1,6 +1,6 @@
 import React from "react";
-import TeamMember from "../../components/team-member";
-import leadership from "../../content/leadership";
+import { TeamMember } from "../../components/team-member";
+import { leadership } from "../../content/leadership";
 
 import styles from "./leadership-container.module.scss";
 
@@ -26,4 +26,4 @@ const LeadershipContainer = () => (
   </div>
 );
 
-export default LeadershipContainer;
+export { LeadershipContainer };

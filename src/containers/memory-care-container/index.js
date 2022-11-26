@@ -1,1 +1,1 @@
-export { default } from "./memory-care-container";
+export { MemoryCareContainer } from "./memory-care-container";

@@ -1,1 +1,1 @@
-export { default } from "./image-submission-container";
+export { ImageSubmissionContainer } from "./image-submission-container";

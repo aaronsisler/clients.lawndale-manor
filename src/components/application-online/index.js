@@ -1,1 +1,1 @@
-export { default } from "./application-online";
+export { ApplicationOnline } from "./application-online";

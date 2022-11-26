@@ -21,4 +21,4 @@ const ContactAddress = () => (
   </div>
 );
 
-export default ContactAddress;
+export { ContactAddress };

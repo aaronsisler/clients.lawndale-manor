@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "../../atoms/image";
-import Hyperlink from "../../atoms/hyperlink";
+import { Hyperlink } from "../../atoms/hyperlink";
 import { getCdnUrl } from "../../utils";
 
 import styles from "./our-mission-container.module.scss";
@@ -50,4 +50,4 @@ const OurMissionContainer = () => (
   </div>
 );
 
-export default OurMissionContainer;
+export { OurMissionContainer };

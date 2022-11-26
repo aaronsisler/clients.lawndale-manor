@@ -41,4 +41,4 @@ const ActivitiesContainer = () => (
   </div>
 );
 
-export default ActivitiesContainer;
+export { ActivitiesContainer;

@@ -23,4 +23,4 @@ ExternalIconLink.propTypes = {
   onClick: PropTypes.func,
 };
 
-export default ExternalIconLink;
+export { ExternalIconLink };

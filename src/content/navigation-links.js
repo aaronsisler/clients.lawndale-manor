@@ -38,4 +38,4 @@ const navigationLinks = [
   },
 ];
 
-export default navigationLinks;
+export { navigationLinks;

@@ -34,4 +34,4 @@ const AmenitiesContainer = () => (
   </div>
 );
 
-export default AmenitiesContainer;
+export { AmenitiesContainer;
