@@ -2,7 +2,7 @@ import React from "react";
 
 import { ContactPhone } from "../../components/contact-phone";
 import { ContactAddress } from "../../components/contact-address";
-import { ContactForm } from "../../components/contact-form";
+import { ContactFormWidget } from "../../widgets/contact-form-widget";
 
 import styles from "./contact-container.module.scss";
 
@@ -13,7 +13,7 @@ const ContactContainer = () => (
         <ContactPhone />
         <ContactAddress />
       </div>
-      <ContactForm />
+      <ContactFormWidget />
     </div>
   </div>
 );

@@ -10,6 +10,7 @@ const ContactAddress = () => (
     <h2>Stop by to see us</h2>
     <p>{streetAddress}</p>
     <p>{cityStateZip}</p>
+    <br />
     <a
       href={GOOGLE_MAPS_LOCATION}
       className={styles.hyperlink}
