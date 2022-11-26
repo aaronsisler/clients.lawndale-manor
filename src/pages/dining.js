@@ -1,5 +1,5 @@
 import React from "react";
-import DiningContainer from "../containers/dining-container";
+import { DiningContainer } from "../containers/dining-container";
 
 const DiningPage = () => (
   <main>

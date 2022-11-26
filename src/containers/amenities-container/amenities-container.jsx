@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "../../atoms/image";
-import amenities from "../../content/amenities";
+import { amenities } from "../../content/amenities";
 
 import styles from "./amenities-container.module.scss";
 
@@ -34,4 +34,4 @@ const AmenitiesContainer = () => (
   </div>
 );
 
-export { AmenitiesContainer;
+export { AmenitiesContainer };

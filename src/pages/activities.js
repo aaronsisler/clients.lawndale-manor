@@ -1,5 +1,5 @@
 import React from "react";
-import ActivitiesContainer from "../containers/activities-container";
+import { ActivitiesContainer } from "../containers/activities-container";
 
 const ActivitiesPage = () => (
   <main>

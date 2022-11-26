@@ -2,7 +2,7 @@ import React from "react";
 import { Image } from "../../atoms/image";
 import { getCdnUrl } from "../../utils";
 import { Hyperlink } from "../../atoms/hyperlink";
-import ApplicationOnline from "../../components/application-online";
+import { ApplicationOnline } from "../../components/application-online";
 
 import styles from "./careers-container.module.scss";
 
@@ -15,7 +15,11 @@ const headerImage = {
 
 const CareersContainer = () => (
   <div className={styles.careersContainer}>
-    <Image className={styles.careersContainer__splashImage} {...headerImage} />
+    <Image
+      className={styles.careersContainer__splashImage}
+      alt={headerImage.alt}
+      src={headerImage.src}
+    />
     <div className={styles.careersContainer__header}>
       <h1>Join our team</h1>
       <p>
@@ -37,4 +41,4 @@ const CareersContainer = () => (
   </div>
 );
 
-export { CareersContainer;
+export { CareersContainer };

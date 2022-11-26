@@ -1,4 +1,5 @@
 import React from "react";
+
 import { APPLICATON_PDF_FILENAME, CDN_URL } from "../../config";
 
 import styles from "./application-download.module.scss";

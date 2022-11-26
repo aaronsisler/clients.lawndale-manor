@@ -1,1 +1,1 @@
-export { default } from "./application-submission-form";
+export { ApplicationSubmissionForm } from "./application-submission-form";

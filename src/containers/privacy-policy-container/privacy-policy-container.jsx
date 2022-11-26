@@ -1,16 +1,16 @@
 import React from "react";
 
-import { privacyPolicyContent } from "../../content/privacy-policy";
+import { privacyPolicy } from "../../content/privacy-policy";
 
 import styles from "./privacy-policy-container.module.scss";
 
 const PrivacyPolicyContainer = () => (
   <div className={styles.privacyPolicyContainer}>
     <h1 className={styles.privacyPolicyContainer__title}>
-      Privacy Policy for {privacyPolicyContent.companyWebsite}
+      Privacy Policy for {privacyPolicy.companyWebsite}
     </h1>
     <section className={styles.privacyPolicyContainer__policies}>
-      {privacyPolicyContent.policies.map((policyLine, index) => {
+      {privacyPolicy.policies.map((policyLine, index) => {
         if (policyLine.isBold) {
           return (
             <React.Fragment key={index}>

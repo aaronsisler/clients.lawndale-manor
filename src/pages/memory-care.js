@@ -1,5 +1,5 @@
 import React from "react";
-import MemoryCareContainer from "../containers/memory-care-container";
+import { MemoryCareContainer } from "../containers/memory-care-container";
 
 const MemoryCarePage = () => (
   <main>

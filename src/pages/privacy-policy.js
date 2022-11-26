@@ -1,5 +1,5 @@
 import React from "react";
-import PrivacyPolicyContainer from "../containers/privacy-policy-container";
+import { PrivacyPolicyContainer } from "../containers/privacy-policy-container";
 
 const PrivacyPolicyPage = () => (
   <main>
@@ -7,4 +7,4 @@ const PrivacyPolicyPage = () => (
   </main>
 );
 
-export { PrivacyPolicyPage;
+export default PrivacyPolicyPage;

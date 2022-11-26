@@ -1,5 +1,5 @@
 import React from "react";
-import FirstStepContainer from "../containers/first-step-container";
+import { FirstStepContainer } from "../containers/first-step-container";
 
 const FirstStepPage = () => (
   <main>

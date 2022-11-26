@@ -1,1 +1,1 @@
-export { default } from "./amenities-container";
+export { AmenitiesContainer } from "./amenities-container";

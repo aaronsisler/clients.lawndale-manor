@@ -38,4 +38,4 @@ const navigationLinks = [
   },
 ];
 
-export { navigationLinks;
+export { navigationLinks };

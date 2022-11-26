@@ -43,4 +43,4 @@ const faqs = [
   },
 ];
 
-export { faqs;
+export { faqs };

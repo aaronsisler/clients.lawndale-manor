@@ -15,4 +15,4 @@ const ErrorContainer = () => (
   </div>
 );
 
-export { ErrorContainer;
+export { ErrorContainer };

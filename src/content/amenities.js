@@ -91,4 +91,4 @@ const amenities = [
   },
 ];
 
-export { amenities;
+export { amenities };

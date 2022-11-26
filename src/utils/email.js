@@ -14,9 +14,9 @@ const headers = {
 
 const emailOptions = { headers };
 
-export const isEmailValid = (emailAddress) => validate(emailAddress);
+const isEmailValid = (emailAddress) => validate(emailAddress);
 
-export const sendEmail = async (data, done, fail) => {
+const sendEmail = async (data, done, fail) => {
   const emailData = {
     clientName: CLIENT_NAME,
     pointOfContactEmail: MARKETING_CONTACT_EMAIL,
@@ -32,7 +32,7 @@ export const sendEmail = async (data, done, fail) => {
   }
 };
 
-export const sendEmailWithAttachment = async (data, done, fail) => {
+const sendEmailWithAttachment = async (data, done, fail) => {
   const emailData = {
     pointOfContactEmail: HR_CONTACT_EMAIL,
     ...data,
@@ -49,3 +49,5 @@ export const sendEmailWithAttachment = async (data, done, fail) => {
     fail();
   }
 };
+
+export { isEmailValid, sendEmail, sendEmailWithAttachment };

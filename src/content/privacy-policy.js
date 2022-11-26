@@ -226,4 +226,4 @@ const privacyPolicy = {
   ],
 };
 
-export default privacyPolicy;
+export { privacyPolicy };

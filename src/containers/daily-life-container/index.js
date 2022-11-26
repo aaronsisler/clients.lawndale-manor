@@ -1,1 +1,1 @@
-export { default } from "./daily-life-container";
+export { DailyLifeContainer } from "./daily-life-container";

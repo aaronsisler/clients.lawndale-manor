@@ -1,5 +1,6 @@
 import React from "react";
 import NextLink from "next/link";
+
 import { CDN_URL } from "../../config";
 
 import styles from "./logo.module.scss";

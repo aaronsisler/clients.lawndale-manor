@@ -1,1 +1,1 @@
-export { default } from "./activities-container";
+export { ActivitiesContainer } from "./activities-container";

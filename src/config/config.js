@@ -18,9 +18,10 @@ export const MARKETING_CONTACT_EMAIL = "aaron.sisler@eandbsolutions.com";
 export const CLIENT_NAME = "Lawndale Manor";
 
 // Application
-// export const APPLICATON_PDF_FILENAME = "lawndale-manor-employment-application.pdf";
-// export const APPLICATION_ONLINE_URL =
-// "https://docs.google.com/forms/d/e/1FAIpQLScjs0OeyK0KbG0SrLndfq7XePDYCnvACWW4V0D6Y-Z8nxZLlw/viewform";
+export const APPLICATON_PDF_FILENAME =
+  "lawndale-manor-employment-application.pdf";
+export const APPLICATION_ONLINE_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLScjs0OeyK0KbG0SrLndfq7XePDYCnvACWW4V0D6Y-Z8nxZLlw/viewform";
 
 // Phone number
 export const CONTACT_PHONE_NUMBER = "(919) 662-0099";

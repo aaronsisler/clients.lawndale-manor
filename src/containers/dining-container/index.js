@@ -1,1 +1,1 @@
-export { default } from "./dining-container";
+export { DiningContainer } from "./dining-container";

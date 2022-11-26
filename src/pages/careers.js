@@ -1,5 +1,5 @@
 import React from "react";
-import CareersContainer from "../containers/careers-container";
+import { CareersContainer } from "../containers/careers-container";
 
 const CareersPage = () => (
   <main>

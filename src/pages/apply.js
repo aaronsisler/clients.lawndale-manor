@@ -1,5 +1,5 @@
 import React from "react";
-import ApplyContainer from "../containers/apply-container";
+import { ApplyContainer } from "../containers/apply-container";
 
 const ApplyPage = () => (
   <main>

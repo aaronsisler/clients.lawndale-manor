@@ -30,4 +30,4 @@ const teamMembers = [
   },
 ];
 
-export { teamMembers;
+export { teamMembers };

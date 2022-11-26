@@ -82,4 +82,4 @@ const DailyLifeContainer = () => (
   </div>
 );
 
-export { DailyLifeContainer;
+export { DailyLifeContainer };

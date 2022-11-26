@@ -1,5 +1,5 @@
 import React from "react";
-import ErrorContainer from "../containers/error-container";
+import { ErrorContainer } from "../containers/error-container";
 
 const ErrorPage = () => {
   return (

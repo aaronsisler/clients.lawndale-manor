@@ -1,1 +1,1 @@
-export { default } from "./careers-container";
+export { CareersContainer } from "./careers-container";

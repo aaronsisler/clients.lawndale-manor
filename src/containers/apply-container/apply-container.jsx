@@ -1,6 +1,7 @@
 import React from "react";
-import ApplicationDownload from "../../components/application-download";
-import ApplicationSubmissionForm from "../../components/application-submission-form";
+
+import { ApplicationDownload } from "../../components/application-download";
+import { ApplicationSubmissionForm } from "../../components/application-submission-form";
 
 import styles from "./apply-container.module.scss";
 
@@ -15,4 +16,4 @@ const ApplyContainer = () => (
   </div>
 );
 
-export { ApplyContainer;
+export { ApplyContainer };

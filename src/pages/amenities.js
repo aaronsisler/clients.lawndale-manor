@@ -1,5 +1,5 @@
 import React from "react";
-import AmenitiesContainer from "../containers/amenities-container";
+import { AmenitiesContainer } from "../containers/amenities-container";
 
 const AmenitiesPage = () => (
   <main>

@@ -1,1 +1,1 @@
-export { default } from "./faqs-container";
+export { FaqsContainer } from "./faqs-container";

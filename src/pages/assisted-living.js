@@ -1,5 +1,5 @@
 import React from "react";
-import AssistedLivingContainer from "../containers/assisted-living-container";
+import { AssistedLivingContainer } from "../containers/assisted-living-container";
 
 const AssistedLivingPage = () => (
   <main>

@@ -1,1 +1,1 @@
-export { default } from "./assisted-living-container";
+export { AssistedLivingContainer } from "./assisted-living-container";

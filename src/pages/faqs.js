@@ -1,5 +1,5 @@
 import React from "react";
-import FaqsContainer from "../containers/faqs-container";
+import { FaqsContainer } from "../containers/faqs-container";
 
 const FaqsPage = () => (
   <main>
