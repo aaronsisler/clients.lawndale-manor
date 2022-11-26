@@ -1,7 +1,7 @@
 import React from "react";
 import cn from "classnames";
 import PropTypes from "prop-types";
-import Hyperlink from "../hyperlink";
+import { Hyperlink } from "../hyperlink";
 
 import styles from "./accordion-mobile.module.scss";
 
@@ -27,9 +27,9 @@ class AccordionMobile extends React.Component {
 
     return (
       <div className={styles.accordionMobile} onClick={this.handleToggle}>
-        <div className={cn(styles.accordionMobile__title, hoverClassname)}>
+        <h1 className={cn(styles.accordionMobile__title, hoverClassname)}>
           {this.props.title}
-        </div>
+        </h1>
         <div className={cn(styles.accordionMobile__content, hoverClassname)}>
           {this.props.links.map((link, index) => (
             <Hyperlink

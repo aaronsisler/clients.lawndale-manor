@@ -12,14 +12,8 @@
   font-family: $family;
 }
 
-@function rgba-with-var($color, $alpha: 1) {
-  @return unquote(
-    "rgba(#{red($color)}, #{green($color)}, #{blue($color)}, #{$alpha})"
-  );
-}
-
 @mixin button() {
-  @include font-type($size: $MEDIUM);
+  @include font-type($MAIN_FONT, $MEDIUM);
 
   display: grid;
   align-items: center;
@@ -30,7 +24,7 @@
   text-transform: uppercase;
   text-decoration: none;
   background-color: $MAIN_COLOR;
-  border-radius: $BORDER_RADIUS;
+  border-radius: $XSMALL;
   cursor: pointer;
   &:hover {
     background-color: $MAIN_COLOR_LIGHTEN;
@@ -42,6 +36,21 @@
     cursor: not-allowed;
     opacity: 0.5;
   }
+}
+
+@mixin textarea() {
+  padding: $SMALL $XSMALL;
+  font-size: $MEDIUM;
+  border: 1px solid $BORDER_GRAY;
+  border-radius: 5px;
+}
+
+@mixin headerImage($PADDING: 0, $MAX_HEIGHT: 45vh) {
+  @if $PADDING != 0 {
+    padding: $PADDING;
+  }
+
+  max-height: $MAX_HEIGHT;
 }
 
 @mixin CTA-link {
@@ -66,12 +75,4 @@
     cursor: not-allowed;
     opacity: 0.5;
   }
-}
-
-@mixin textarea() {
-  @include font-type($size: $MIDSMALL);
-
-  padding: $SMALL $XSMALL;
-  border: 1px solid $BORDER_GRAY;
-  border-radius: $BORDER_RADIUS;
 }

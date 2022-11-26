@@ -3,7 +3,7 @@
 
 //Small screens - MOBILE
 @media only screen {
-  .error_container {
+  .errorContainer {
     display: grid;
     flex-direction: column;
     grid-gap: $LARGE;
@@ -11,7 +11,7 @@
     justify-items: center;
     margin-top: $LARGE;
     &__title {
-      @include font-type($size: $MIDLARGE);
+      @include font-type($MAIN_FONT, $MIDLARGE, bold);
     }
   }
 }

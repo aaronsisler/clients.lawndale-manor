@@ -1,48 +1,58 @@
-import React, { useState } from "react";
+import React from "react";
 import cn from "classnames";
 import PropTypes from "prop-types";
-import Hyperlink from "../hyperlink";
+import { Hyperlink } from "../hyperlink";
 
 import styles from "./accordion-desktop.module.scss";
 
-const AccordionDesktop = ({ links, title }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
-  const handleClick = () => setIsExpanded(false);
+class AccordionDesktop extends React.Component {
+  constructor(props) {
+    super(props);
 
-  const handleToggle = (eventName) => {
-    if (isExpanded && eventName === "leave") {
-      setIsExpanded(false);
-    } else if (!isExpanded && eventName === "enter") {
-      setIsExpanded(true);
+    this.state = {
+      isExpanded: false,
+    };
+  }
+
+  handleClick = () => this.setState({ isExpanded: false });
+
+  handleToggle = (eventName) => {
+    if (this.state.isExpanded && eventName === "leave") {
+      this.setState({ isExpanded: false });
+    } else if (!this.state.isExpanded && eventName === "enter") {
+      this.setState({ isExpanded: true });
     }
   };
 
-  const hoverClassname = isExpanded
-    ? styles.accordionDesktopToggled
-    : undefined;
+  render() {
+    const { isExpanded } = this.state;
+    const hoverClassname = isExpanded
+      ? styles.accordionDesktopToggled
+      : undefined;
 
-  return (
-    <div
-      className={styles.accordionDesktop}
-      onClick={handleClick}
-      onMouseEnter={() => handleToggle("enter")}
-      onMouseLeave={() => handleToggle("leave")}
-    >
-      <div className={cn(styles.accordionDesktop__title, hoverClassname)}>
-        {title}
+    return (
+      <div
+        className={styles.accordionDesktop}
+        onClick={this.handleClick}
+        onMouseEnter={() => this.handleToggle("enter")}
+        onMouseLeave={() => this.handleToggle("leave")}
+      >
+        <h1 className={cn(styles.accordionDesktop__title, hoverClassname)}>
+          {this.props.title}
+        </h1>
+        <div className={cn(styles.accordionDesktop__content, hoverClassname)}>
+          {this.props.links.map((link, index) => (
+            <Hyperlink
+              className={styles.accordionDesktop__contentLink}
+              key={index}
+              {...link}
+            />
+          ))}
+        </div>
       </div>
-      <div className={cn(styles.accordionDesktop__content, hoverClassname)}>
-        {links.map((link, index) => (
-          <Hyperlink
-            className={styles.accordionDesktop__contentLink}
-            key={index}
-            {...link}
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 AccordionDesktop.propTypes = {
   links: PropTypes.array.isRequired,
