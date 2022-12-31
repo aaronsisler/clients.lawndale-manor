@@ -1,19 +1,19 @@
-import { getCdnUrl } from "../utils";
+import { getCdnUrl } from "../../utils";
 
-const CDN_URL = getCdnUrl("/activities");
+const CDN_URL__ACTIVITIES = getCdnUrl("/activities");
 
-const eventImages = [
+const activitiesImages = [
   {
     alt: "Disco party for residents",
-    src: `${CDN_URL}/activities-container__disco.jpg`,
+    src: `${CDN_URL__ACTIVITIES}/activities-container__disco.jpg`,
   },
   {
     alt: "Tea party for residents on Mother's Day",
-    src: `${CDN_URL}/activities-container__tea.jpg`,
+    src: `${CDN_URL__ACTIVITIES}/activities-container__tea.jpg`,
   },
   {
     alt: "Santa visiting the residents during Christmas party",
-    src: `${CDN_URL}/activities-container__santa.jpg`,
+    src: `${CDN_URL__ACTIVITIES}/activities-container__santa.jpg`,
   },
 ];
 
@@ -39,4 +39,4 @@ const activities = [
   "Annual Christmas Party (December)",
 ];
 
-export { activities, eventImages };
+export { activities, activitiesImages };

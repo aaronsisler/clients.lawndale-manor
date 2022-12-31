@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "../../atoms/image";
-import { activities, eventImages } from "../../content/activities";
+import { activities, activitiesImages } from "../../content/activities";
 
 import styles from "./activities-container.module.scss";
 
@@ -18,7 +18,7 @@ const ActivitiesContainer = () => (
       </p>
     </div>
     <div className={styles.activitiesContainer__images}>
-      {eventImages.map((eventImage, index) => (
+      {activitiesImages.map((eventImage, index) => (
         <Image
           className={styles.activitiesContainer__image}
           key={index}

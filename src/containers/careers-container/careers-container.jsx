@@ -1,24 +1,17 @@
 import React from "react";
-import { Image } from "../../atoms/image";
-import { getCdnUrl } from "../../utils";
 import { Hyperlink } from "../../atoms/hyperlink";
+import { Image } from "../../atoms/image";
 import { ApplicationOnline } from "../../components/application-online";
+import { careersSplashImage } from "../../content/images";
 
 import styles from "./careers-container.module.scss";
-
-const CDN_URL = getCdnUrl("/careers");
-
-const headerImage = {
-  alt: "Staff member smiling with phone",
-  src: `${CDN_URL}/careers-container.jpg`,
-};
 
 const CareersContainer = () => (
   <div className={styles.careersContainer}>
     <Image
       className={styles.careersContainer__splashImage}
-      alt={headerImage.alt}
-      src={headerImage.src}
+      alt={careersSplashImage.alt}
+      src={careersSplashImage.src}
     />
     <div className={styles.careersContainer__header}>
       <h1>Join our team</h1>

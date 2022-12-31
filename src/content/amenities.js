@@ -1,6 +1,6 @@
 import { getCdnUrl } from "../utils";
 
-const CDN_URL = getCdnUrl("/amenities");
+const CDN_URL__AMENITIES = getCdnUrl("/amenities");
 
 const amenities = [
   {
@@ -9,7 +9,7 @@ const amenities = [
     title: "Outdoor porches",
     image: {
       alt: "Outdoor porch on sunny day",
-      src: `${CDN_URL}/amenities-container__porch.jpg`,
+      src: `${CDN_URL__AMENITIES}/amenities-container__porch.jpg`,
     },
   },
   {
@@ -18,7 +18,7 @@ const amenities = [
     title: "Library",
     image: {
       alt: "Library with two sitting chairs",
-      src: `${CDN_URL}/amenities-container__library.jpg`,
+      src: `${CDN_URL__AMENITIES}/amenities-container__library.jpg`,
     },
   },
   {
@@ -27,7 +27,7 @@ const amenities = [
     title: "Family Rooms",
     image: {
       alt: "Family room with large screen tv",
-      src: `${CDN_URL}/amenities-container__family-room.jpg`,
+      src: `${CDN_URL__AMENITIES}/amenities-container__family-room.jpg`,
     },
   },
   {
@@ -36,7 +36,7 @@ const amenities = [
     title: "Friendly neighbors",
     image: {
       alt: "Two staff members with resident dog",
-      src: `${CDN_URL}/amenities-container__dog.jpg`,
+      src: `${CDN_URL__AMENITIES}/amenities-container__dog.jpg`,
     },
   },
   {
@@ -45,7 +45,7 @@ const amenities = [
     title: "Transportation",
     image: {
       alt: "Small concierge bus",
-      src: `${CDN_URL}/amenities-container__bus.jpg`,
+      src: `${CDN_URL__AMENITIES}/amenities-container__bus.jpg`,
     },
   },
   {
@@ -54,7 +54,7 @@ const amenities = [
     title: "Dining Rooms",
     image: {
       alt: "Dining room with chairs and tables",
-      src: `${CDN_URL}/amenities-container__dining.jpg`,
+      src: `${CDN_URL__AMENITIES}/amenities-container__dining.jpg`,
     },
   },
   {
@@ -63,7 +63,7 @@ const amenities = [
     title: "Convenience Store",
     image: {
       alt: "Convenience store with items",
-      src: `${CDN_URL}/amenities-container__store.jpg`,
+      src: `${CDN_URL__AMENITIES}/amenities-container__store.jpg`,
     },
   },
   {
@@ -72,7 +72,7 @@ const amenities = [
     title: "Beauty/Barber Shop",
     image: {
       alt: "Stylist at her station",
-      src: `${CDN_URL}/amenities-container__salon.jpg`,
+      src: `${CDN_URL__AMENITIES}/amenities-container__salon.jpg`,
     },
   },
   {
@@ -81,7 +81,7 @@ const amenities = [
     title: "Hospice Room",
     image: {
       alt: "Hospice room with bed and comfy recliner chair.",
-      src: `${CDN_URL}/amenities-container__hospice.jpg`,
+      src: `${CDN_URL__AMENITIES}/amenities-container__hospice.jpg`,
     },
   },
   {
