@@ -1,23 +1,17 @@
 import React from "react";
 import { Hyperlink } from "../../atoms/hyperlink";
 import { Image } from "../../atoms/image";
-import { getCdnUrl } from "../../utils";
+
+import { whyAssistedLivingSplashImage } from "../../content/images";
 
 import styles from "./why-assisted-living-container.module.scss";
-
-const CDN_URL = getCdnUrl("/why-assisted-living");
-
-const splashImage = {
-  alt: "Man holding hands together in thought",
-  src: `${CDN_URL}/why-assisted-living-container.jpg`,
-};
 
 const WhyAssistedLivingContainer = () => (
   <div className={styles.whyAssistedLivingContainer}>
     <Image
       className={styles.whyAssistedLivingContainer__splashImage}
-      alt={splashImage.alt}
-      src={splashImage.src}
+      alt={whyAssistedLivingSplashImage.alt}
+      src={whyAssistedLivingSplashImage.src}
     />
     <div className={styles.whyAssistedLivingContainer__content}>
       <h1 className={styles.whyAssistedLivingContainer__title}>

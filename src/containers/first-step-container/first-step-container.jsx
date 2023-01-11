@@ -1,23 +1,17 @@
 import React from "react";
 import { Hyperlink } from "../../atoms/hyperlink";
 import { Image } from "../../atoms/image";
-import { getCdnUrl } from "../../utils";
+
+import { firstStepSplashImage } from "../../content/images";
 
 import styles from "./first-step-container.module.scss";
-
-const CDN_URL = getCdnUrl("/first-step");
-
-const splashImage = {
-  alt: "Man holding hands together in thought",
-  src: `${CDN_URL}/first-step-container.jpg`,
-};
 
 const FirstStepContainer = () => (
   <div className={styles.firstStepContainer}>
     <Image
       className={styles.firstStepContainer__splashImage}
-      alt={splashImage.alt}
-      src={splashImage.src}
+      alt={firstStepSplashImage.alt}
+      src={firstStepSplashImage.src}
     />
     <div className={styles.firstStepContainer__content}>
       <h1 className={styles.firstStepContainer__title}>Where do I start?</h1>

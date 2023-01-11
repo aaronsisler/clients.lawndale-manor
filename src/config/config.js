@@ -1,6 +1,6 @@
 // CDN URL
 export const CDN_URL =
-  "https://cdn-e-and-b-solutions.s3.amazonaws.com/lawndale-manor";
+  "https://cdn-e-and-b-solutions.s3.amazonaws.com/clients/lawndale-manor";
 
 // Google Maps
 export const CONTACT_ADDRESS = ["601 Lakeside Dr,", "Garner, NC 27529"];

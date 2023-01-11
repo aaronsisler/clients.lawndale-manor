@@ -1,4 +1,4 @@
-import { getCdnUrl } from "../../utils";
+import { getCdnUrl } from "../utils";
 
 const CDN_URL__ACTIVITIES = getCdnUrl("/activities");
 

@@ -1,23 +1,17 @@
 import React from "react";
 import { Image } from "../../atoms/image";
 import { Hyperlink } from "../../atoms/hyperlink";
-import { getCdnUrl } from "../../utils";
+
+import { ourMissionSplashImage } from "../../content/images";
 
 import styles from "./our-mission-container.module.scss";
-
-const CDN_URL = getCdnUrl("/our-mission");
-
-const headerImage = {
-  alt: "Staff member hugging a resident",
-  src: `${CDN_URL}/our-mission-container.jpg`,
-};
 
 const OurMissionContainer = () => (
   <div className={styles.ourMissionContainer}>
     <Image
       className={styles.ourMissionContainer__headerImage}
-      alt={headerImage.alt}
-      src={headerImage.src}
+      alt={ourMissionSplashImage.alt}
+      src={ourMissionSplashImage.src}
     />
     <div className={styles.ourMissionContainer__content}>
       <h1 className={styles.ourMissionContainer__title}>

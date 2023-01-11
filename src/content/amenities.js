@@ -7,7 +7,7 @@ const amenities = [
     content:
       "Our front porch is a great place to sit in a rocking chair and enjoy the fresh air. Our back porch offers a privacy courtyard.",
     title: "Outdoor porches",
-    image: {
+    nonWorkingImage: {
       alt: "Outdoor porch on sunny day",
       src: `${CDN_URL__AMENITIES}/amenities-container__porch.jpg`,
     },
@@ -16,7 +16,7 @@ const amenities = [
     content:
       "Lawndale Manor's library offers a variety of books and magazines. The library offers a quiet place for families or friends to sit and visit. Our activities department also utilizes the library for small group and one-on-one activities.",
     title: "Library",
-    image: {
+    nonWorkingImage: {
       alt: "Library with two sitting chairs",
       src: `${CDN_URL__AMENITIES}/amenities-container__library.jpg`,
     },
@@ -25,7 +25,7 @@ const amenities = [
     content:
       "We offer two rooms equipped with large, flat-screen TVs for our residents' enjoyment.",
     title: "Family Rooms",
-    image: {
+    nonWorkingImage: {
       alt: "Family room with large screen tv",
       src: `${CDN_URL__AMENITIES}/amenities-container__family-room.jpg`,
     },
@@ -34,7 +34,7 @@ const amenities = [
     content:
       "We have a resident dog, named Patches, who loves to sit and enjoy your company.",
     title: "Friendly neighbors",
-    image: {
+    nonWorkingImage: {
       alt: "Two staff members with resident dog",
       src: `${CDN_URL__AMENITIES}/amenities-container__dog.jpg`,
     },
@@ -43,7 +43,7 @@ const amenities = [
     content:
       "We utilize a handicap accessible vehicle for transportation to and from local medical appointments and for outings.",
     title: "Transportation",
-    image: {
+    nonWorkingImage: {
       alt: "Small concierge bus",
       src: `${CDN_URL__AMENITIES}/amenities-container__bus.jpg`,
     },
@@ -52,7 +52,7 @@ const amenities = [
     content:
       "We pride ourselves on the cleanliness and care our dietary staff takes to ensure dining rooms are ready for a variety of uses, from preparing and serving meals to meetings and private parties.",
     title: "Dining Rooms",
-    image: {
+    nonWorkingImage: {
       alt: "Dining room with chairs and tables",
       src: `${CDN_URL__AMENITIES}/amenities-container__dining.jpg`,
     },
@@ -61,7 +61,7 @@ const amenities = [
     content:
       "Our convenience store offers a wide variety of items that you may find at a local convenience or five-and-dime store. All proceeds go directly to our residents' activities funds.",
     title: "Convenience Store",
-    image: {
+    nonWorkingImage: {
       alt: "Convenience store with items",
       src: `${CDN_URL__AMENITIES}/amenities-container__store.jpg`,
     },
@@ -70,7 +70,7 @@ const amenities = [
     content:
       "Our beauty/barber shop is open weekly for haircuts, styling, manicures, and pedicures.",
     title: "Beauty/Barber Shop",
-    image: {
+    nonWorkingImage: {
       alt: "Stylist at her station",
       src: `${CDN_URL__AMENITIES}/amenities-container__salon.jpg`,
     },
@@ -79,7 +79,7 @@ const amenities = [
     content:
       "Lawndale Manor has a dedicated hospice room to allow for a peaceful transition.",
     title: "Hospice Room",
-    image: {
+    nonWorkingImage: {
       alt: "Hospice room with bed and comfy recliner chair.",
       src: `${CDN_URL__AMENITIES}/amenities-container__hospice.jpg`,
     },
