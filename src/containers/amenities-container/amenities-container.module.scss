@@ -10,17 +10,17 @@
         @include font-type($MAIN_FONT, $LARGE, bold);
       }
       p {
-        margin: $SMALL 0;
+        margin: $SMALL 0 $MIDLARGE;
       }
     }
     &__secTitle {
       @include font-type($MAIN_FONT, $MIDLARGE, bold);
 
-      margin: $SMALL 0;
+      margin: $SMALL 0 $MIDLARGE;
     }
     &__list {
       &Item {
-        margin-bottom: $XLARGE;
+        margin-bottom: $LARGE;
         &Image {
           margin-bottom: $MEDIUM;
         }

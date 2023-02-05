@@ -1,27 +1,21 @@
 import React from "react";
+
+import { Image } from "../../atoms/image";
+
 import {
   coveredServices,
   notCoveredServices,
 } from "../../content/assisted-living-services";
-import { modelRoomImages } from "../../content/shared";
-import { Image } from "../../atoms/image";
-import { getCdnUrl } from "../../utils";
+import { assistedLivingSplashImage } from "../../content/images";
 
 import styles from "./assisted-living-container.module.scss";
-
-const CDN_URL = getCdnUrl("/assisted-living");
-
-const splashImage = {
-  alt: "Nurse holding an senior lady's hand",
-  src: `${CDN_URL}/assisted-living-container.jpg`,
-};
 
 const AssistedLivingContainer = () => (
   <div className={styles.assistedLivingContainer}>
     <Image
       className={styles.assistedLivingContainer__splashImage}
-      alt={splashImage.alt}
-      src={splashImage.src}
+      alt={assistedLivingSplashImage.alt}
+      src={assistedLivingSplashImage.src}
     />
     <div className={styles.assistedLivingContainer__content}>
       <h1 className={styles.assistedLivingContainer__title}>
@@ -46,7 +40,7 @@ const AssistedLivingContainer = () => (
         maintenance calls or repairs. Simply enjoy the most remarkable parts of
         the life you lead.
       </p>
-      <h2 className={styles.assistedLivingContainer__imagesTitle}>Our rooms</h2>
+      {/* <h2 className={styles.assistedLivingContainer__imagesTitle}>Our rooms</h2>
       <div className={styles.assistedLivingContainer__modelImages}>
         {modelRoomImages.map((image, index) => (
           <Image
@@ -56,7 +50,7 @@ const AssistedLivingContainer = () => (
             src={image.src}
           />
         ))}
-      </div>
+      </div>*/}
       <hr />
       <h2 className={styles.assistedLivingContainer__listTitle}>
         What we provide

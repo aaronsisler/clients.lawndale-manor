@@ -6,34 +6,9 @@
 
 Do a global find on the repo for the following: `REPLACE_ME__`. This should speed up the below process.
 
-1. Update config.js with client information.
+1. Update config.js with info for online application.
 1. package.json - deploy:beta/prod scripts
 1. Update GHA so that the deploy works
-
-### Github updates
-
-1. Setup the GHA secrets for:
-
-   - AWS_ACCESS_KEY_ID
-   - AWS_SECRET_ACCESS_KEY
-
-## Repository Conventions
-
-### Imports
-
-### Atomic Elements
-
-#### Atoms
-
-#### Components
-
-#### Widgets
-
-#### Containers
-
-#### Pages
-
-A page should contain a `main` markup element wrapping a single imported container.
 
 ## Creating S3 and CloudFront
 

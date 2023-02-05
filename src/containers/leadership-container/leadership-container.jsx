@@ -1,7 +1,7 @@
 import React from "react";
 
 import { TeamMember } from "../../components/team-member";
-import { teamMembers } from "../../content/team-members";
+import { leadershipMembers } from "../../content/leadership-members";
 
 import styles from "./leadership-container.module.scss";
 
@@ -16,10 +16,10 @@ const LeadershipContainer = () => (
         living at Lawndale Manor.
       </p>
       <div className={styles.leadershipContainer__teamMembers}>
-        {teamMembers.map((teamMember, index) => (
+        {leadershipMembers.map((leadershipMember, index) => (
           <React.Fragment key={index}>
-            <TeamMember key={index} {...teamMember} />
-            {index !== teamMembers.length - 1 && <hr />}
+            <TeamMember key={index} {...leadershipMember} />
+            {index !== leadershipMember.length - 1 && <hr />}
           </React.Fragment>
         ))}
       </div>

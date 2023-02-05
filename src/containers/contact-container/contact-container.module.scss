@@ -28,8 +28,10 @@
   .contactContainer {
     min-height: calc(100vh - #{$NAV_MENU_HEIGHT});
     &__content {
-      grid-template-columns: auto auto;
+      display: flex;
+      flex-direction: row;
       justify-content: center;
+
       margin: 0 auto;
     }
     &__visit {

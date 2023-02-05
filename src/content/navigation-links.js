@@ -12,10 +12,7 @@ const navigationLinks = [
   {
     key: "services",
     title: "Our Services",
-    links: [
-      { title: "Assisted Living", href: "/assisted-living" },
-      { title: "Memory Care", href: "/memory-care" },
-    ],
+    links: [{ title: "Assisted Living", href: "/assisted-living" }],
   },
   {
     key: "life",
@@ -33,7 +30,7 @@ const navigationLinks = [
     links: [
       { title: "Contact Us", href: "/contact" },
       { title: "Leadership", href: "/leadership" },
-      { title: "Careers", href: "/careers" },
+      // { title: "Careers", href: "/careers" },
     ],
   },
 ];

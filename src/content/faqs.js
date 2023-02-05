@@ -36,11 +36,11 @@ const faqs = [
     answer:
       "Yes, physical therapy can be done in assisted living through a third party care provider three days per week.",
   },
-  {
-    question: "Does Lawndale Manor offer any in-house medical services?",
-    answer:
-      "Yes, we have an in-house physician and psychiatrist. We contract with Caring Hands for labs and blood work to be drawn in house. Also, we utilize services of Albemarle Home Care & Hospice and Community Home Care & Hospice for therapy, wound care, and hospice care in-house.",
-  },
+  // {
+  //   question: "Does Lawndale Manor offer any in-house medical services?",
+  //   answer:
+  //     "Yes, we have an in-house physician and psychiatrist. We contract with Caring Hands for labs and blood work to be drawn in house. Also, we utilize services of Albemarle Home Care & Hospice and Community Home Care & Hospice for therapy, wound care, and hospice care in-house.",
+  // },
 ];
 
 export { faqs };

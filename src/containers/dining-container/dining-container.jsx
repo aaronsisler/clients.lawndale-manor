@@ -13,11 +13,11 @@ const splashImage = {
 
 const DiningContainer = () => (
   <div className={styles.diningContainer}>
-    <Image
+    {/* <Image
       className={styles.diningContainer__splashImage}
       alt={splashImage.alt}
       src={splashImage.src}
-    />
+    /> */}
     <div className={styles.diningContainer__content}>
       <h1 className={styles.diningContainer__title}>
         Home-cooked meals every day

@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "../../atoms/image";
-import { activities, eventImages } from "../../content/activities";
+import { activities, activitiesImages } from "../../content/activities";
 
 import styles from "./activities-container.module.scss";
 
@@ -13,12 +13,12 @@ const ActivitiesContainer = () => (
       <p>
         By creating new memories together, we experience close connections that
         feel like family. At Lawndale Manor, you will have the opportunity to
-        find the balance that’s right for you. This might include taking part in
-        fitness classes, art activities, or our popular cooking classes.
+        find the balance that&apos;s right for you. This might include taking
+        part in fitness classes, art activities, or our popular cooking classes.
       </p>
     </div>
-    <div className={styles.activitiesContainer__images}>
-      {eventImages.map((eventImage, index) => (
+    {/* <div className={styles.activitiesContainer__images}>
+      {activitiesImages.map((eventImage, index) => (
         <Image
           className={styles.activitiesContainer__image}
           key={index}
@@ -26,7 +26,7 @@ const ActivitiesContainer = () => (
           src={eventImage.src}
         />
       ))}
-    </div>
+    </div> */}
     <hr />
     <div className={styles.activitiesContainer__activities}>
       <h2 className={styles.activitiesContainer__secTitle}>Activities</h2>

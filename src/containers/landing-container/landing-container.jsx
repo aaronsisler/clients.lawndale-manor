@@ -2,44 +2,40 @@ import React from "react";
 
 import { Hyperlink } from "../../atoms/hyperlink";
 import { Image } from "../../atoms/image";
-import { getCdnUrl } from "../../utils";
+
+import {
+  landingContainerSecondaryImage,
+  landingContainerSplashImage,
+} from "../../content/images";
 
 import styles from "./landing-container.module.scss";
-
-const CDN_URL = getCdnUrl("/landing");
-
-const splashImage = {
-  alt: "Flowers on the front outdoor porch",
-  src: `${CDN_URL}/landing-container__front-porch.jpg`,
-};
-const outdoorImage = {
-  alt: "Picture of the back of facility",
-  src: `${CDN_URL}/landing-container__splash.jpg`,
-};
 
 const LandingContainer = () => (
   <div className={styles.landingContainer}>
     <Image
       className={styles.landingContainer__splashImage}
-      alt={splashImage.alt}
-      src={splashImage.src}
+      alt={landingContainerSplashImage.alt}
+      src={landingContainerSplashImage.src}
     />
     <div className={styles.landingContainer__content}>
       <h1 className={styles.landingContainer__contentTitle}>
         Life is better at Lawndale Manor
       </h1>
       <p>
-        Lawndale Manor of Garner is a licensed assisted living community. You
-        will find days with fewer worries, more options, and a community that
-        feels just like home. Find a sense of belonging in our community of
-        friends by&nbsp;
+        Lawndale Manor, established since 1994, is a licensed assisted living
+        facility located in the heart of Garner, North Carolina. We offer a
+        wide-array of activities and services for residents to maintain a
+        healthy lifestyle. We believe that seniors are owed the utmost respect
+        for the lives they&apos;ve lived. We honor their wisdom and desire to
+        serve them with dignity and respect thereby “Adding Life To Their
+        Years.” Find a sense of belonging in our community of friends by&nbsp;
         <Hyperlink href="/daily-life" title="learning more here." />
       </p>
     </div>
     <Image
       className={styles.landingContainer__secondImage}
-      alt={outdoorImage.alt}
-      src={outdoorImage.src}
+      alt={landingContainerSecondaryImage.alt}
+      src={landingContainerSecondaryImage.src}
     />
     <div className={styles.landingContainer__content}>
       <h2 className={styles.landingContainer__contentSecTitle}>
