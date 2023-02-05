@@ -17,7 +17,7 @@ const ActivitiesContainer = () => (
         part in fitness classes, art activities, or our popular cooking classes.
       </p>
     </div>
-    {/* <div className={styles.activitiesContainer__images}>
+    <div className={styles.activitiesContainer__images}>
       {activitiesImages.map((eventImage, index) => (
         <Image
           className={styles.activitiesContainer__image}
@@ -26,7 +26,7 @@ const ActivitiesContainer = () => (
           src={eventImage.src}
         />
       ))}
-    </div> */}
+    </div>
     <hr />
     <div className={styles.activitiesContainer__activities}>
       <h2 className={styles.activitiesContainer__secTitle}>Activities</h2>

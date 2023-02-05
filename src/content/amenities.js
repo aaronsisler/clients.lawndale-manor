@@ -5,38 +5,29 @@ const CDN_URL__AMENITIES = getCdnUrl("/amenities");
 const amenities = [
   {
     content:
-      "Our front porch is a great place to sit in a rocking chair and enjoy the fresh air. Our back porch offers a privacy courtyard.",
+      "Our front porch is a great place to sit in a rocking chair and enjoy the fresh air. Our back patio offers more outdoor seating.",
     title: "Outdoor porches",
-    nonWorkingImage: {
+    image: {
       alt: "Outdoor porch on sunny day",
-      src: `${CDN_URL__AMENITIES}/amenities-container__porch.jpg`,
+      src: `${CDN_URL__AMENITIES}/amenities-container__back-patio.jpg`,
     },
   },
   {
     content:
       "Lawndale Manor's library offers a variety of books and magazines. The library offers a quiet place for families or friends to sit and visit. Our activities department also utilizes the library for small group and one-on-one activities.",
     title: "Library",
-    nonWorkingImage: {
+    image: {
       alt: "Library with two sitting chairs",
       src: `${CDN_URL__AMENITIES}/amenities-container__library.jpg`,
     },
   },
   {
     content:
-      "We offer two rooms equipped with large, flat-screen TVs for our residents' enjoyment.",
-    title: "Family Rooms",
-    nonWorkingImage: {
-      alt: "Family room with large screen tv",
-      src: `${CDN_URL__AMENITIES}/amenities-container__family-room.jpg`,
-    },
-  },
-  {
-    content:
-      "We have a resident dog, named Patches, who loves to sit and enjoy your company.",
-    title: "Friendly neighbors",
-    nonWorkingImage: {
-      alt: "Two staff members with resident dog",
-      src: `${CDN_URL__AMENITIES}/amenities-container__dog.jpg`,
+      "We offer lounge rooms equipped with large, flat-screen TVs for our residents' enjoyment.",
+    title: "Lounge Rooms",
+    image: {
+      alt: "Lounge room with large screen tv",
+      src: `${CDN_URL__AMENITIES}/amenities-container__lounge.jpg`,
     },
   },
   {
@@ -55,15 +46,6 @@ const amenities = [
     nonWorkingImage: {
       alt: "Dining room with chairs and tables",
       src: `${CDN_URL__AMENITIES}/amenities-container__dining.jpg`,
-    },
-  },
-  {
-    content:
-      "Our convenience store offers a wide variety of items that you may find at a local convenience or five-and-dime store. All proceeds go directly to our residents' activities funds.",
-    title: "Convenience Store",
-    nonWorkingImage: {
-      alt: "Convenience store with items",
-      src: `${CDN_URL__AMENITIES}/amenities-container__store.jpg`,
     },
   },
   {

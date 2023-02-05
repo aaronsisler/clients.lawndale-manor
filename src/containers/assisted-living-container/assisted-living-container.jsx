@@ -7,6 +7,7 @@ import {
   notCoveredServices,
 } from "../../content/assisted-living-services";
 import { assistedLivingSplashImage } from "../../content/images";
+import { modelRoomImages } from "../../content/shared";
 
 import styles from "./assisted-living-container.module.scss";
 
@@ -40,7 +41,7 @@ const AssistedLivingContainer = () => (
         maintenance calls or repairs. Simply enjoy the most remarkable parts of
         the life you lead.
       </p>
-      {/* <h2 className={styles.assistedLivingContainer__imagesTitle}>Our rooms</h2>
+      <h2 className={styles.assistedLivingContainer__imagesTitle}>Our rooms</h2>
       <div className={styles.assistedLivingContainer__modelImages}>
         {modelRoomImages.map((image, index) => (
           <Image
@@ -50,7 +51,7 @@ const AssistedLivingContainer = () => (
             src={image.src}
           />
         ))}
-      </div>*/}
+      </div>
       <hr />
       <h2 className={styles.assistedLivingContainer__listTitle}>
         What we provide
