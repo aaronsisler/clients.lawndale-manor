@@ -45,14 +45,14 @@
     &__images {
       display: grid;
       grid-column-gap: $SMALL;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       align-items: center;
       justify-content: center;
       margin: $LARGE 0;
-      padding: 0 $XXLARGE;
+      padding-inline: 25%;
     }
     &__image {
-      max-height: 350px;
+      max-height: 450px;
       margin-bottom: 0;
     }
     hr {

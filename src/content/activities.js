@@ -4,26 +4,20 @@ const CDN_URL__ACTIVITIES = getCdnUrl("/activities");
 
 const activitiesImages = [
   {
-    alt: "Disco party for residents",
-    src: `${CDN_URL__ACTIVITIES}/activities-container__disco.jpg`,
+    alt: "Game room with residents",
+    src: `${CDN_URL__ACTIVITIES}/activities-container__game-room.jpg`,
   },
   {
-    alt: "Tea party for residents on Mother's Day",
-    src: `${CDN_URL__ACTIVITIES}/activities-container__tea.jpg`,
-  },
-  {
-    alt: "Santa visiting the residents during Christmas party",
-    src: `${CDN_URL__ACTIVITIES}/activities-container__santa.jpg`,
+    alt: "Lounge room with fireplace",
+    src: `${CDN_URL__ACTIVITIES}/activities-container__lounge-room-fireplace.jpg`,
   },
 ];
 
 const activities = [
   "Monthly Resident Outing (Weather Permitting)",
-  "SPCA Pet Visit",
   "Monthly Birthday Party",
   "Bingo",
   "Exercise Activities",
-  "Kingdom Hall Bible Study",
   "Devotion",
   "Resident Council Meeting Monthly",
   "Men's Club",
@@ -33,8 +27,6 @@ const activities = [
   "Cooking Class",
   "Arts & Crafts",
   "Wade Nevans & Friends Gospel Group",
-  "Visit from Elizabeth City / Pasquotank County Senior Center",
-  "Visit from Perquimans County Senior Center",
   "Annual Senior Prom (Summer)",
   "Annual Christmas Party (December)",
 ];

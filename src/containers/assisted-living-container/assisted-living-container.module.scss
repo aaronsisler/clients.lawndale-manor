@@ -36,10 +36,10 @@
     &__modelImages {
       display: flex;
       flex-flow: column;
+      gap: $SMALL;
     }
     &__modelImage {
       width: 100%;
-      margin-bottom: $SMALL;
       object-fit: scale-down;
     }
     &__listTitle {
@@ -69,8 +69,14 @@
     &__content {
       padding: 0 15% $XLARGE;
     }
+    &__modelImages {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: $SMALL;
+      padding-inline: 10%;
+    }
     &__modelImage {
-      max-height: 350px;
+      max-height: 500px;
     }
   }
 }

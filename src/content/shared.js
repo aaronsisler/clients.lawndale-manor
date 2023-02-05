@@ -4,16 +4,20 @@ const CDN_URL = getCdnUrl("/shared");
 
 const modelRoomImages = [
   {
-    alt: "Model room with bed",
-    src: `${CDN_URL}/shared__model-room-4.jpeg`,
+    alt: "Model room with beds",
+    src: `${CDN_URL}/shared__beds.jpg`,
   },
   {
     alt: "Double doors in model room",
-    src: `${CDN_URL}/shared__model-room-1.jpeg`,
+    src: `${CDN_URL}/shared__closets.jpg`,
   },
   {
-    alt: "Chair in model room",
-    src: `${CDN_URL}/shared__model-room-3.jpeg`,
+    alt: "Sink and toilet in model room's bathroom",
+    src: `${CDN_URL}/shared__sink_and_toilet.jpg`,
+  },
+  {
+    alt: "Walk in shower in model room's bathroom",
+    src: `${CDN_URL}/shared__walk_in_shower.jpg`,
   },
 ];
 

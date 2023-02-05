@@ -5,15 +5,13 @@ const coveredServices = [
   "Laundry services",
   "Assistance with personal care needs",
   "In-house physician and psychiatric services",
-  "In-house laboratory services contracted through Albemarle Hospital",
+  "In-house laboratory services",
   "Medical appointment scheduling and reminders",
   "Transportation to and from local medical appointments",
   "Medication management",
   "Weekly outings",
   "Variety of physically, mentally, and socially stimulating activities",
   "Specialized memory stimulation programs",
-  "Secure memory care neighborhood",
-  "Secure extensive care neighborhood"
 ];
 
 const notCoveredServices = [
@@ -26,7 +24,7 @@ const notCoveredServices = [
   "Activities other than those scheduled by the Activities department",
   "Dry cleaning costs",
   "Salon service fees",
-  "Other incurred debt such as credit, insurance, and phones"
+  "Other incurred debt such as credit, insurance, and phones",
 ];
 
 export { coveredServices, notCoveredServices };
