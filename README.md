@@ -10,7 +10,7 @@ Do a global find on the repo for the following: `REPLACE_ME__`. This should spee
 1. package.json - deploy:beta/prod scripts
 1. Update GHA so that the deploy works
 
-## Creating S3 and CloudFront
+## Creating S3, ACM, CloudFront, and Route 53
 
 ### Creating new S3 bucket
 
@@ -55,6 +55,8 @@ Do a global find on the repo for the following: `REPLACE_ME__`. This should spee
 
 ### Creating Cloudfront distribution
 
+**This is dependent on the above ACM Certificate step.**
+
 1. Origin is the URL from S3 static domain
    - S3 -> Properties -> Static Website Hosting -> Copy that URL
 1. Viewer -> Viewer protocol policy -> Redirect HTTP to HTTPS
@@ -68,3 +70,14 @@ Do a global find on the repo for the following: `REPLACE_ME__`. This should spee
    - Description
      - At the bottom.
      - Will have the client-domain-name.com or beta.client-domain-name.com
+
+### Create Route 53 records
+
+**This is dependent on the above CloudFront distribution step.**
+
+1. Add in a record for beta.client-domain-name.com
+   - Add `beta` in the Record name field
+   - Click the `Alias` toggle
+   - Route traffic to `Alias to CloudFront distribution`
+   - Select the correct CloudFront distribution
+1. Add in a record for client-domain-name.com
