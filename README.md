@@ -29,25 +29,42 @@ Do a global find on the repo for the following: `REPLACE_ME__`. This should spee
 
 1. Permissions tab
 
-   ```
-   {
-      "Version": "2012-10-17",
-      "Statement": [
-         {
-               "Effect": "Allow",
-               "Principal": "*",
-               "Action": "s3:GetObject",
-               "Resource": "arn:aws:s3:::beta.client-domain-name.com/*"
-         }
-      ]
-   }
-   ```
+   - Bucket Policy
+
+     ```
+     {
+        "Version": "2012-10-17",
+        "Statement": [
+           {
+                 "Effect": "Allow",
+                 "Principal": "*",
+                 "Action": "s3:GetObject",
+                 "Resource": "arn:aws:s3:::beta.client-domain-name.com/*"
+           }
+        ]
+     }
+     ```
+
+### Create ACM Certificate
+
+1. Make sure ACM Certificate has:
+   - client-domain-name.com
+   - \*.client-domain-name.com
+1. Request the DNS based validation
+1. This will need to be Verified (not Pending validation) before Cloudfront can be completed
 
 ### Creating Cloudfront distribution
 
-1. Make sure ACM Certificate has client-domain-name.com AND \*.client-domain-name.com
 1. Origin is the URL from S3 static domain
+   - S3 -> Properties -> Static Website Hosting -> Copy that URL
 1. Viewer -> Viewer protocol policy -> Redirect HTTP to HTTPS
-1. Alternate domain name (CNAME) needs to be client-name.com
-1. Custom SSL certificate needs to have the ACM Certificate that has boht base nad \*.client-domain-name.com
-1. Descritpion at the bottom will have the client-domain-name.com or beta.client-domain-name.com
+1. Settings
+   - Price Class
+     - Use only North America and Europe
+   - Alternate domain name (CNAME)
+     - Needs to be client-name.com or beta.client-name.com
+   - Custom SSL certificate
+     - Needs to have the ACM Certificate that has both base and \*.client-domain-name.com
+   - Description
+     - At the bottom.
+     - Will have the client-domain-name.com or beta.client-domain-name.com
