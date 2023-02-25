@@ -5,17 +5,17 @@ const CDN_URL__LEADERSHIP = getCdnUrl("/leadership");
 const leadershipMembers = [
   {
     imgSrc: `${CDN_URL__LEADERSHIP}/terri_allen.jpg`,
-    name: "Terri",
+    name: "Terri Allen",
     title: "Administrator",
   },
   {
     imgSrc: `${CDN_URL__LEADERSHIP}/lesha.jpg`,
-    name: "Lesha",
+    name: "Lesha Small",
     title: "Resident Care Coordinator",
   },
   {
     imgSrc: `${CDN_URL__LEADERSHIP}/debi.jpg`,
-    name: "Debi",
+    name: "Debi Short",
     title: "Director of Health Services",
   },
 ];
