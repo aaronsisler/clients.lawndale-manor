@@ -10,7 +10,7 @@ const leadershipMembers = [
   },
   {
     imgSrc: `${CDN_URL__LEADERSHIP}/lesha.jpg`,
-    name: "Lesha Small",
+    name: "Iesha Small",
     title: "Resident Care Coordinator",
   },
   {
