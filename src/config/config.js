@@ -8,11 +8,11 @@ export const GOOGLE_MAPS_LOCATION =
   "https://www.google.com/maps/place/Lawndale+Manor+Assisted+Living/@35.6979745,-78.6167331,17z/data=!3m1!4b1!4m5!3m4!1s0x89ac605fb4770feb:0x972a18c00cef2bb!8m2!3d35.6980175!4d-78.6145869";
 
 // Contact Emails
-// export const HR_CONTACT_EMAIL = "lawndalemanor1@yahoo.com";
-// export const MARKETING_CONTACT_EMAIL = "lawndalemanor1@yahoo.com";
+export const HR_CONTACT_EMAIL = "lawndalemanor1@yahoo.com";
+export const MARKETING_CONTACT_EMAIL = "lawndalemanor1@yahoo.com";
 //Testing
-export const HR_CONTACT_EMAIL = "aaron.sisler@eandbsolutions.com";
-export const MARKETING_CONTACT_EMAIL = "aaron.sisler@eandbsolutions.com";
+// export const HR_CONTACT_EMAIL = "aaron.sisler@eandbsolutions.com";
+// export const MARKETING_CONTACT_EMAIL = "aaron.sisler@eandbsolutions.com";
 
 // Client Name
 export const CLIENT_NAME = "Lawndale Manor Assisted Living";
